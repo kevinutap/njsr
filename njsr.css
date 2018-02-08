@@ -351,8 +351,7 @@ td.tocGalleys {
 	margin-top: 2.25rem;
 }
 #commonPageFooterContent {
-/*    clear: left; */
-    display: none;
+    clear: left;
 }
 #journalIssn {
     width: 100%;
@@ -392,6 +391,23 @@ td.tocGalleys {
     }
     #hostedBy {max-width: 65%;}
 }
+
+/*footer with INN logo start*/
+#commonPageFooterContent{
+display: none;
+}
+
+#hostedBy, #publishedBy {
+display: inline-block;
+max-width: 40%;
+}
+
+#cookiePolicy{
+display: inline-block;
+max-width: 20%;
+}
+/*footer with INN logo end */
+
 
 /* FOOTER END */
 
